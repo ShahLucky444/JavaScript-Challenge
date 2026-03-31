@@ -8,4 +8,38 @@ for(let j=1;j<=10;j++);{
     console.log("i am learning javascript");
 } */
 
-// while loop 
+// calculate 1 to n number sum..
+
+/* let sum = 0;
+let n =10;
+for(let  i = 1; i <= n;i++){
+    sum = sum + i;
+}
+console.log("sum of 1 to n is:",sum); */
+
+//while loop....
+
+/*let i=1;
+while(i<=10){
+    console.log("bunny");
+    i++;
+}*/
+
+//do while loop
+
+/*et i=1;
+do{
+    console.log("i =",i);
+    i++;
+} while(i<=10); */
+
+// for of loop
+
+let str = "shah lucky";
+let size = 0;
+for(let i of str){
+    console.log("i=",i);
+    size++;
+}
+
+console.log("str size is:",size);
