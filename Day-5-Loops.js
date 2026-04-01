@@ -27,7 +27,7 @@ while(i<=10){
 
 //do while loop
 
-/*et i=1;
+/*let i=1;
 do{
     console.log("i =",i);
     i++;
@@ -35,11 +35,23 @@ do{
 
 // for of loop
 
-let str = "shah lucky";
-let size = 0;
-for(let i of str){
-    console.log("i=",i);
-    size++;
-}
+// let str = "shah lucky";
+// let size = 0;
+// for(let i of str){
+//     console.log("i=",i);
+//     size++;
+// }
 
-console.log("str size is:",size);
+// console.log("str size is:",size);
+
+// for in loop
+
+let student = {
+    name : "lucky",
+    age : 19,
+    salary : "0.1lack"
+};
+
+for (let key in student){
+    console.log("key=",key,"value=",student[key]);
+}
