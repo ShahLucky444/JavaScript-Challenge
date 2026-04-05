@@ -11,8 +11,14 @@
 
 //for loop using array
 
-let mc = ["loid","light","L","lucky"];
+ let mc = ["loid","light","L","lucky"];
 
-for (let i = 0; i<mc.length; i++);
+// for (let i = 0; i<mc.length; i++);
 
-console.log(mc[i]);
+// console.log(mc[i]);
+
+//for of loop
+
+for (let c of mc){
+    console.log(c);
+}
