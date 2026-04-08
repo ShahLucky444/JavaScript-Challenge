@@ -22,22 +22,18 @@ console.log(val);
 
 //practice question for count vowels in string...
 
-
-function countvowel (str) {
-    let count = 0;
-    for (let char of str){
+function countvowel(str) {
+  let count = 0;
+  for (let char of str) {
     if (
-        char === "a" ||
-        char === "e" ||
-        char === "i" ||
-        char === "o" ||
-        char === "u" 
+      char === "a" ||
+      char === "e" ||
+      char === "i" ||
+      char === "o" ||
+      char === "u"
     ) {
-        count++
+      count++;
     }
-    }
-    return count;
+  }
+  return count;
 }
-
-
-
