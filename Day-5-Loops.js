@@ -1,4 +1,4 @@
-//for loop 
+//for loop
 
 /* for(let i=1;i<=5;i++){
     console.log("Laerning loops in  js ");
@@ -46,12 +46,34 @@ do{
 
 // for in loop
 
-let student = {
-    name : "lucky",
-    age : 19,
-    salary : "0.1lack"
-};
+// let student = {
+//     name : "lucky",
+//     age : 19,
+//     salary : "0.1lack"
+// };
 
-for (let key in student){
-    console.log("key=",key,"value=",student[key]);
-}
+// for (let key in student){
+//     console.log("key=",key,"value=",student[key]);
+// }
+
+// for (i = 0; i <= 10; i++) {
+//   console.log(i);
+// }
+
+//
+
+// for (const c of "shah lucky") {
+//   console.log(c);
+// }
+
+// let i = 1;
+// while (i <= 10) {
+//   console.log(i);
+//   i++;
+// }
+
+let i = 0;
+do {
+  console.log(i);
+  i++;
+} while (i <= 10);
