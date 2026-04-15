@@ -56,9 +56,9 @@ do{
 //     console.log("key=",key,"value=",student[key]);
 // }
 
-// for (i = 0; i <= 10; i++) {
-//   console.log(i);
-// }
+for (i = 0; i <= 10; i++) {
+  console.log(i);
+}
 
 //
 
@@ -72,8 +72,8 @@ do{
 //   i++;
 // }
 
-let i = 0;
-do {
-  console.log(i);
-  i++;
-} while (i <= 10);
+// let i = 0;
+// do {
+//   console.log(i);
+//   i++;
+// } while (i <= 10);
