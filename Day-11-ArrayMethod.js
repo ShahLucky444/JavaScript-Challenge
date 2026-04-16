@@ -1,5 +1,7 @@
 let items = ["panipuri", "aloopuri", "kachodi", "samosa"];
 
+console.log(items.join(" , "));
+
 // console.log(items.unshift("ganne ka juice")); // add to first
 
 // console.log(items.shift()); // delete first element
