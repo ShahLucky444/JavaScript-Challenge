@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Bubbling</title>
+  </head>
+  <style>
+    .container {
+      background-color: aqua;
+      padding: 14px;
+      margin: 14px;
+      border: 2px solid red;
+    }
+
+    .childcontainer {
+      background-color: rgb(40, 93, 93);
+      padding: 14px;
+      margin: 14px;
+      border: 2px solid rgb(105, 52, 241);
+    }
+
+    .child {
+      background-color: rgb(196, 232, 106);
+      padding: 14px;
+      margin: 14px;
+      border: 2px solid red;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="childcontainer">
+        <div class="child">this is example of event Bubbling</div>
+      </div>
+    </div>
+    <script>
+      document
+        .getElementsByClassName(".child")
+        .addEventListner("click", (e) => {
+          console.log(e);
+        });
+    </script>
+  </body>
+</html>
