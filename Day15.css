@@ -13,3 +13,9 @@
 #btn {
   background-color: chartreuse;
 }
+
+#para {
+  text-align: center;
+  text-shadow: 20px;
+  color: blueviolet;
+}
