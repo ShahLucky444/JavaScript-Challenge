@@ -25,6 +25,7 @@
       padding: 14px;
       margin: 14px;
       border: 2px solid red;
+      cursor: pointer;
     }
   </style>
   <body>
@@ -33,12 +34,6 @@
         <div class="child">this is example of event Bubbling</div>
       </div>
     </div>
-    <script>
-      document
-        .getElementsByClassName(".child")
-        .addEventListner("click", (e) => {
-          console.log(e);
-        });
-    </script>
+    <script src="Day-18-EventBubbling.js"></script>
   </body>
 </html>
