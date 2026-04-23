@@ -23,3 +23,21 @@ let a = setTimeout(() => {
 }, 2000);
 
 clearTimeout(a);
+
+let btn = document.querySelector(".btn");
+
+btn.addEventListener("click", () => {
+  document.querySelector(".child").innerHTML = "your name is lucky!!";
+});
+
+let btn1 = document.querySelector(".btn1");
+
+btn1.addEventListener("click", () => {
+  document.querySelector(".child").innerHTML = "your name is andra!!";
+});
+
+let btn2 = document.querySelector(".btn2");
+
+btn2.addEventListener("click", () => {
+  document.querySelector(".child").innerHTML = "your name is bunny!!";
+});
